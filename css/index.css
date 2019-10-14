@@ -1,0 +1,278 @@
+* {
+    transition: all 1s;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home {
+    background-image: url(../images/slideshow-1.jpg);
+    height: 800px;
+    background-size:
+}
+
+.navbar .collapse > li > a {
+    color: #f25454;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link i {
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f25454;
+}
+
+.brdr {
+    height: 1px;
+    background-color: #000;
+    width: 4%;
+    margin: 10px auto;
+}
+
+.section-head {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.progress {
+    height: 5px;
+}
+
+.caption {
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.caption p {
+    float: left;
+    margin: 0px;
+    padding: 0px
+}
+
+.precentg-1 {
+    width: 80%;
+    text-align: right
+}
+
+.precentg-2 {
+    width: 95%;
+    text-align: right
+}
+
+.precentg-3 {
+    width: 85%;
+    text-align: right
+}
+
+.precentg-4 {
+    width: 80%;
+    text-align: right
+}
+
+.team-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.team-member:hover img {
+    transform: scale(1.1, 1.1)
+}
+
+.team-member:hover .layer {
+    background-color: rgba(242, 84, 84, 0.85);
+}
+
+.team-member:hover h4 {
+    color: #f25454;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    transform: scale(.95, .95)
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    background-color: #fff;
+}
+
+.portfolio-item:hover .overlay-info {
+    opacity: 1;
+}
+
+.portfolio-item:hover img {
+    background-color: #fff;
+    transform: scale(1.1, 1.1)
+}
+
+.portfolio-item:hover .overlay-info h5 {
+    margin: 0px;
+}
+
+.overlay-info h5 {
+    margin-top: 10px;
+}
+
+.overlay-info {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+    z-index: 20;
+    margin: auto;
+}
+
+.service-text h3 {
+    font-size: 10px;
+}
+
+.service-text h3:hover,
+.footer-list ul li a:hover {
+    color: #f25454;
+    text-decoration: none;
+}
+
+.Services i {
+    font-size: 30px;
+    color: #f25454;
+}
+
+.testimonials-img {
+    width: 50%;
+    margin: auto;
+}
+
+.mid-img {
+    transform: scale(1.2, 1.2)
+}
+
+.img-continer {
+    position: relative;
+    border-radius: 50%;
+}
+
+.layer-1 {
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.single-box p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.numbers {
+    background-color: #333;
+    height: 200px;
+}
+
+.num {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-title {
+    color: #444;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+}
+
+.blog-category {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    height: 30px;
+    width: 100px;
+    background-color: #f25454;
+}
+
+.blog-category p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card:hover img {
+    transform: scale(1.1, 1.1)
+}
+
+.card-title:hover {
+    text-decoration: none;
+    color: #f25454;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #f25454;
+}
+
+.contact a {
+    color: #282828;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container h3 {
+    font-size: 30px;
+}
+
+.footer h5 {
+    font-weight: bolder
+}
+
+.footer .footer-list ul li {
+    list-style: none;
+}
+
+.footer p {
+    color: #b0b0b0;
+}
+
+.footer-list ul li a {
+    color: #b0b0b0;
+}
+
+@media and screen (max-width:550) {
+    p{
+        font-size: 15px;
+    }
+}
